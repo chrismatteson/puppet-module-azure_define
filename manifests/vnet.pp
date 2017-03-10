@@ -1,6 +1,5 @@
 # A Define type wrapping the azure_resource_template type
-# and utilizing a template file to create Azure Network
-# Security Groups.
+# and utilizing a template file to create Azure vnets.
 define azure_define::vnet (
   $ensure = present,
   $resource_group,
